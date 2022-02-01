@@ -2,6 +2,7 @@
   height: 100vh;
   background-color: #0d1116;
   /* overflow: scroll; */
+  overflow: auto;
   text-align: center;
 }
 
@@ -60,12 +61,12 @@
 .connect-wallet-button {
   background-image: linear-gradient(
     to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+    #bfdbfe 0%,
+    #93c5fd 0%,
+    #60a5fa 21%,
+    #3b82f6 52%,
+    #2563eb 78%,
+    #1d4ed8 100%
   );
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
