@@ -3,7 +3,7 @@ import twitterLogo from './assets/twitter-logo.svg';
 import './App.css';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'ViviPlasenciaC';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -11,11 +11,11 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header gradient-text">⚔️ Metaverse Slayer ⚔️</p>
-          <p className="sub-text">Team up to protect the Metaverse!</p>
+          <p className="header gradient-text">💥 Smashverse 💥</p>
+          <p className="sub-text">Team up to defeat Bowser!</p>
           <div className="connect-wallet-container">
             <img
-              src="https://64.media.tumblr.com/tumblr_mbia5vdmRd1r1mkubo1_500.gifv"
+              src="gameImage.jpg"
               alt="Monty Python Gif"
             />
           </div>
@@ -27,7 +27,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built with @${TWITTER_HANDLE}`}</a>
+          >{`built by @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
